@@ -20,6 +20,6 @@ This is a System Administration subject, to discover Docker and set up my first 
 
 ### 💻 How to Run
 
-docker build . -t ft_server
+docker build . -t ft_server \
 docker run -it -p80:80 -p443:443 ft_server
 
